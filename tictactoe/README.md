@@ -32,6 +32,7 @@
 git clone https://github.com/Iqbalfachry19/zktictactoe.git
 cd zktictactoe
 npm install
+```
 ✅ Requirements
 
 Node.js v18+
@@ -40,10 +41,11 @@ MQTT broker (you can use a public one like HiveMQ or run one locally)
 Noir toolchain (noirup, nargo)
 Wallet compatible with XellarKit
 ▶️ Running the Project
-
+```bash
 npm run dev
+```
 🔧 Building the ZK Circuit (Noir)
-
+```bash
 Install Noir toolchain
 curl -L https://noirup.sh | bash
 noirup nightly
@@ -53,6 +55,7 @@ nargo build
 Generate proof & verifier
 nargo prove
 nargo codegen-verifier
+```
 📡 MQTT Configuration
 
 Edit the MQTT connection in src/config/mqtt.js:
