@@ -56,7 +56,7 @@ export default function Home() {
       <div className="mt-12 text-center">
         <h1 className="text-4xl font-extrabold text-orange-700 flex justify-center items-center gap-2">
           <Sparkles className="w-7 h-7 text-yellow-500 animate-pulse" />
-          TicTacToe ZK
+          ZK TicTacToe
         </h1>
         <p className="text-sm text-gray-600 mt-2">Zero-Knowledge + Fun!</p>
       </div>
