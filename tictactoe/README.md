@@ -59,9 +59,10 @@ nargo codegen-verifier
 📡 MQTT Configuration
 
 Edit the MQTT connection in src/config/mqtt.js:
-
+```bash
 export const MQTT_BROKER_URL = 'wss://broker.hivemq.com:8884/mqtt';
 export const MQTT_TOPIC = 'zktictactoe/game';
+```
 🔐 Smart Contract (Sepolia)
 
 You may optionally deploy a smart contract to:
